@@ -5,7 +5,7 @@
 fullname = input("Enter your full name in incorrect casing: ")
 
 # convert the to pascal case
-fullname = fullname.title().split() # convert the full name to title case and split it into a list
+pascal_case = fullname.title().split() # convert the full name to title case and split it into a list
 
 # print the name in pascal case
-print(''.join(fullname)) # join the list of names into a string and print it
+print(''.join(pascal_case)) # join the list of names into a string and print it
